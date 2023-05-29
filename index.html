@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=10" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google" content="notranslate">
+
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>بطاقة تهنئة - </title>
+
+</head>
+
+<body dir="rtl">
+    <section id="rightPanel">
+        <a href="https://www.marketing-home.com" class="logo">
+      <img src="images/logo.svg" />
+    </a>
+
+        <p class="copyRights hide-on-small-only"> <span>2023</span></p>
+    </section>
+    <section id="leftPanel">
+        <h2 class="mainTitle">بطاقة تهنئة</h2>
+        <div class="step1">
+            <div class="row">
+
+                <h4>أنشىء بطاقتك الخاصة وشارك أحبابك التهنئة</h4>
+                <div class="col l4 s6">
+                    <a onclick="selectDesign(this)" class="item" data-textColor="#323673" data-textY="900">
+                <img src="images/Greeting-1.png" />
+                <span>بطاقة تهنئة عيد الاضحى المبارك  </span>
+                <span>منزل السراميك</span>
+            </a>
+                </div>
+                <div class="col l4 s6">
+                    <a onclick="selectDesign(this)" class="item" data-textColor="#5c4b51" data-textY="900">
+                  <img src="images/Greeting-1.png" />
+                  <span>بطاقة تهنئة عيد الاضحى المبارك  </span>
+                  <span>مخازن الاضاءة</span>
+
+                </a>
+                </div>
+
+                <div class="col l4 s6">
+                    <a onclick="selectDesign(this)" class="item" data-textColor="#ffffff" data-textY="900">
+                  <img src="images/Greeting-1.png" />
+                  <span>بطاقة تهنئة عيد الاضحى المبارك  </span>
+                  <span> هاتش</span>
+              </a>
+                </div>
+                <div class="col l4 s6">
+                    <a onclick="selectDesign(this)" class="item" data-textColor="#3d5b81" data-textY="940">
+                  <img src="images/Greeting-1.png" />
+                  <span>بطاقة تهنئة عيد الاضحى المبارك  </span>
+                  <span>هاتش منتجات  </span>
+                </a>
+                </div>
+                <div class="col l4 s6">
+                    <a onclick="selectDesign(this)" class="item" data-textColor="#323673" data-textY="900">
+                  <img src="images/Greeting-1.png" />
+                  <span>بطاقة تهنئة عيد الاضحى المبارك  </span>
+                  <span>فيلا</span>
+              </a>
+                </div>
+                <div class="col l4 s6">
+                    <a onclick="selectDesign(this)" class="item" data-textColor="#ffffff" data-textY="900">
+                  <img src="images/Greeting-1.png" />
+                  <span>بطاقة تهنئة عيد الاضحى المبارك  </span>
+                  <span>محطة البناء  </span>
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="step2">
+            <div class="row">
+
+                <div class="col l12 s12">
+                    <div id="canvas-wrap">
+                        <canvas style="display:block" id="imageCanvas" width=1080px height=1080px>
+              <canvas id="canvasID"></canvas>
+                        </canvas>
+                    </div>
+                    <div class="input-field col l6 s12 pull-l3 center">
+                        <input class="controls__input" id="name" type="text" maxlength="26" value="" placeholder="مثلا : محمد عيدالله" />
+                        <label class="active" for="name">أضف اسمك لبطاقة التهنئة </label>
+                        <button type="button" onclick="convertToImage();" class="waves-effect waves-light btn-large hvr-grow goForward">
+                  تنزيل الصورة
+              </button>
+
+                        <a class="waves-effect waves-light btn-large hvr-grow outlineBTN" onclick="backToHome()">العودة إلى القائمة ←</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p class="copyRights2 hide-on-med-and-up"> MHG <span>2023</span></p>
+    </section>
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/html2canvas.js"></script>
+    <script type="text/javascript" src="js/bluebird.js"></script>
+    <script type="text/javascript" src="js/download2.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+
+
+</body>
+
+</html>
